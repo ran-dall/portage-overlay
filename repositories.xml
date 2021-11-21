@@ -1,0 +1,21 @@
+<repositories version="1.0">
+<repo priority="100" quality="experimental" status="unofficial">
+<name>randall</name>
+<description lang="en">Randall's personal ebuild overlay.</description>
+<homepage>https://git.sr.ht/~ran-dall/portage-overlay</homepage>
+<owner>
+<name>Randall</name>
+<email>ran-dall@icloud.com</email>
+</owner>
+<source type="git">https://github.com/ran-dall/portage-overlay.git</source>
+<source type="git">git://github.com/ran-dall/portage-overlay.git</source>
+<source type="git">git@github.com:ran-dall/portage-overlay.git</source>
+<source type="git">https://gitlab.com/ran-dall/portage-overlay.git</source>
+<source type="git">git://gitlab.com/ran-dall/portage-overlay.git</source>
+<source type="git">git@gitlab.com:ran-dall/portage-overlay.git</source>
+<source type="git">https://git.sr.ht/~ran-dall/portage-overlay</source>
+<source type="git">git@git.sr.ht:~ran-dall/portage-overlay</source>
+<feed>https://github.com/ran-dall/portage-overlay/commits/master.atom</feed>
+<feed>https://gitlab.com/ran-dall/portage-overlay/commits/master.atom</feed>
+</repo>
+</repositories>
