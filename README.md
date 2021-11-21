@@ -32,3 +32,6 @@ auto-sync = yes
 **🗒️ NOTE: You can also use my GitLab mirror which is kept bidirectionally in sync. Just replace `sync-uri = https://github.com/ran-dall/portage-overlay` with `sync-uri = https://gitlab.com/ran-dall/portage-overlay`**
 
 ***👉 FWIW GitHub is slightly faster than GitLab. However, it may greatly depend on your location.***
+
+## Ebuilds
+- **[1Password](https://1password.com/downloads/linux/) by [1Password](https://1password.com/)** [v8.4.0]
