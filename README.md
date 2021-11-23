@@ -40,3 +40,4 @@ auto-sync = yes
 - [Bash+](https://github.com/ingydotnet/bashplus) by [Ingy döt Net](http://ingy.net/) [v0.1.0]
 - [Test::Tap](https://github.com/ingydotnet/test-tap-bash) by [Ingy döt Net](http://ingy.net/) [v0.0.6]
 - [Test::More](https://github.com/ingydotnet/test-more-bash) by [Ingy döt Net](http://ingy.net/) [v0.0.5]
+- **[Logseq](https://github.com/logseq/logseq) by [Logseq](https://logseq.com/) [v0.4.9]**
