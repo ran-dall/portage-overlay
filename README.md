@@ -36,6 +36,7 @@ auto-sync = yes
 ## Ebuilds
 - **[1Password](https://1password.com/downloads/linux/) by [1Password](https://1password.com/)** [v8.4.0]
 - [1Password Beta](https://support.1password.com/betas/) by [1Password](https://1password.com/) [v8.4.0-53]
+- **[git-subrepo](https://github.com/ingydotnet/git-subrepo) by [Ingy döt Net](http://ingy.net/) [v0.4.3]**
 - [Bash+](https://github.com/ingydotnet/bashplus) by [Ingy döt Net](http://ingy.net/) [v0.1.0]
 - [Test::Tap](https://github.com/ingydotnet/test-tap-bash) by [Ingy döt Net](http://ingy.net/) [v0.0.6]
 - [Test::More](https://github.com/ingydotnet/test-more-bash) by [Ingy döt Net](http://ingy.net/) [v0.0.5]

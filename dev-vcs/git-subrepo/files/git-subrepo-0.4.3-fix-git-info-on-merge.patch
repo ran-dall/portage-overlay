@@ -1,0 +1,32 @@
+From: Randall Vasquez<ran.dall@icloud.com>
+
+Fixes the version output
+
+Signed-off-by: Randall Vasquez <ran-dall@icloud.com>
+
+diff -Naur a/lib/git-subrepo b/lib/git-subrepo
+--- a/lib/git-subrepo	2021-10-28 13:06:23.406324806 -0700
++++ b/lib/git-subrepo	2021-10-28 13:03:57.648343450 -0700
+@@ -1654,8 +1654,8 @@
+     # If `git-subrepo` was system-installed (`make install`):
+     if [[ -e $lib/git-subrepo.d/upstream ]] &&
+        [[ -e $lib/git-subrepo.d/commit ]]; then
+-      command_remote=$(readlink "$lib/git-subrepo.d/upstream")
+-      command_commit=$(readlink "$lib/git-subrepo.d/commit")
++      command_remote=$(bash "$lib/git-subrepo.d/upstream")
++      command_commit=$(bash "$lib/git-subrepo.d/commit")
+     elif [[ $lib =~ / ]]; then
+       lib=$(dirname "$lib")
+       if [[ -d $lib/.git ]]; then
+diff -Naur a/lib/git-subrepo.d/commit b/lib/git-subrepo.d/commit
+--- a/lib/git-subrepo.d/commit	1969-12-31 16:00:00.000000000 -0800
++++ b/lib/git-subrepo.d/commit	2021-10-28 12:47:33.335469355 -0700
+@@ -0,0 +1,2 @@
++#!/bin/sh
++echo $(GIT_DIR=.git git rev-parse --short HEAD)
+diff -Naur a/lib/git-subrepo.d/upstream b/lib/git-subrepo.d/upstream
+--- a/lib/git-subrepo.d/upstream	1969-12-31 16:00:00.000000000 -0800
++++ b/lib/git-subrepo.d/upstream	2021-10-28 12:47:33.336469355 -0700
+@@ -0,0 +1,2 @@
++#! /bin/sh
++echo "https://github.com/ingydotnet/git-subrepo.git"
