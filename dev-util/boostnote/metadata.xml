@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>ran.dall@icloud.com</email>
+    <name>Randall Vasquez</name>
+  </maintainer>
+  <upstream>
+      <remote-id type="github">ran-dall</remote-id>
+      <bugs-to>https://github.com/ran-dall/portage-overlay/issues</bugs-to>
+  </upstream>
+  <use>
+    <flag name="doc">Installs documentation</flag>
+  </use>
+</pkgmetadata>

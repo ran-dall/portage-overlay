@@ -43,3 +43,4 @@ auto-sync = yes
 - **[Logseq](https://github.com/logseq/logseq) by [Logseq](https://logseq.com/) [v0.4.9]**
 - **[OpenWeb-Start (bin)](https://github.com/karakun/OpenWebStart) by [Karakun AG](https://www.karakun.com/) [1.4.0] [(Gentoo Bug 🐛 #67305)](https://bugs.gentoo.org/673050)**
 - **[MPlus (New) Fonts](https://github.com/coz-m/MPLUS_FONTS) by [coz-m](https://github.com/coz-m) [2021-09-22]**
+- **[BoostNote (Next)](https://github.com/BoostIO/BoostNote-App) by [BoostNote](https://boostnote.io/) [0.22.0]**
