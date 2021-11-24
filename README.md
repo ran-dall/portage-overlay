@@ -42,3 +42,4 @@ auto-sync = yes
 - [Test::More](https://github.com/ingydotnet/test-more-bash) by [Ingy döt Net](http://ingy.net/) [v0.0.5]
 - **[Logseq](https://github.com/logseq/logseq) by [Logseq](https://logseq.com/) [v0.4.9]**
 - **[OpenWeb-Start (bin)](https://github.com/karakun/OpenWebStart) by [Karakun AG](https://www.karakun.com/) [1.4.0] [(Gentoo Bug 🐛 #67305)](https://bugs.gentoo.org/673050)**
+- **[MPlus (New) Fonts](https://github.com/coz-m/MPLUS_FONTS) by [coz-m](https://github.com/coz-m) [2021-09-22]**
