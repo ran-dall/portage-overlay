@@ -41,3 +41,4 @@ auto-sync = yes
 - [Test::Tap](https://github.com/ingydotnet/test-tap-bash) by [Ingy döt Net](http://ingy.net/) [v0.0.6]
 - [Test::More](https://github.com/ingydotnet/test-more-bash) by [Ingy döt Net](http://ingy.net/) [v0.0.5]
 - **[Logseq](https://github.com/logseq/logseq) by [Logseq](https://logseq.com/) [v0.4.9]**
+- **[OpenWeb-Start (bin)](https://github.com/karakun/OpenWebStart) by [Karakun AG](https://www.karakun.com/) [1.4.0] [(Gentoo Bug 🐛 #67305)](https://bugs.gentoo.org/673050)**
