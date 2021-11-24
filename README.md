@@ -34,7 +34,7 @@ auto-sync = yes
 ***👉 FWIW GitHub is slightly faster than GitLab. However, it may greatly depend on your location.***
 
 ## Ebuilds
-- **[1Password](https://1password.com/downloads/linux/) by [1Password](https://1password.com/)** [v8.4.0]
+- **[1Password](https://1password.com/downloads/linux/) by [1Password](https://1password.com/)** [v8.4.1]
 - [1Password Beta](https://support.1password.com/betas/) by [1Password](https://1password.com/) [v8.4.0-53]
 - **[git-subrepo](https://github.com/ingydotnet/git-subrepo) by [Ingy döt Net](http://ingy.net/) [v0.4.3] [v0.4.4 +] [v0.4.5 +]**
 - [Bash+](https://github.com/ingydotnet/bashplus) by [Ingy döt Net](http://ingy.net/) [v0.1.0]
