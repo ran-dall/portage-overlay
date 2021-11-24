@@ -1,0 +1,15 @@
+#!/sbin/openrc-run
+# Copyright 1999-2021 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+pidfile="/var/run/nextdns.pid"
+command="/usr/bin/nextdns"
+command_args="run"
+command_background="yes"
+
+start_stop_daemon_args="--env SERVICE_RUN_MODE=1"
+
+depend() {
+	use net logger
+	provide dns
+}

@@ -1,0 +1,35 @@
+diff -Naur a/config.go b/config.go
+--- a/config.go	2021-11-18 16:58:27.000000000 -0800
++++ b/config.go	2021-11-23 08:40:34.236970110 -0800
+@@ -53,8 +53,6 @@
+ 		c.Parse("nextdns config edit", []string{"-config-file", tmp.Name()}, true)
+ 		c.File = ""
+ 		return c.Save()
+-	case "wizard":
+-		return installer("configure")
+ 	default:
+ 		return errors.New("usage: \n" +
+ 			"  config list              list configuration options\n" +
+diff -Naur a/main.go b/main.go
+--- a/main.go	2021-11-18 16:58:27.000000000 -0800
++++ b/main.go	2021-11-23 08:41:32.354969556 -0800
+@@ -18,16 +18,12 @@
+ }
+ 
+ var commands = []command{
+-	{"install", svc, "install service init on the system"},
+-	{"uninstall", svc, "uninstall service init from the system"},
+-	{"start", svc, "start installed service"},
+-	{"stop", svc, "stop installed service"},
+-	{"restart", svc, "restart installed service"},
++	{"start", svc, "start service"},
++	{"stop", svc, "stop service"},
++	{"restart", svc, "restart service"},
+ 	{"status", svc, "return service status"},
+ 	{"log", svc, "show service logs"},
+ 
+-	{"upgrade", upgrade, "upgrade the cli to the latest version"},
+-
+ 	{"run", run, "run the daemon"},
+ 
+ 	{"config", cfg, "manage configuration"},
