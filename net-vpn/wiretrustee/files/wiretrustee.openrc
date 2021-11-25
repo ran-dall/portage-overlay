@@ -1,0 +1,14 @@
+#!/sbin/openrc-run
+# Copyright 1999-2021 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+pidfile="/var/run/wiretrustee.pid"
+command="/usr/bin/wiretrustee"
+command_args="up"
+command_background="yes"
+
+start_stop_daemon_args="--config /etc/wiretrustee/config.json --log-level info"
+
+depend() {
+	use net
+}
